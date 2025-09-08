@@ -1,4 +1,4 @@
-# [OneVictoria: Community Disaster Response and Relief Management System	]
+# OneVictoria: Community Disaster Response and Relief Management System	
 **Course:** ITP41E – System Integration and Architecture 2
 **Team Name:** SysTEAM
 **Repository:** [[link to repository]](https://github.com/Jelahteen/ITE412_SIA2_SysTeam_OneVictoriaProject-.git)
