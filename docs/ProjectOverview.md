@@ -45,3 +45,10 @@ Volunteers and NGOs will benefit from a system that coordinates their activities
 - Integration approach (e.g., REST APIs, Webhooks, Message Queue):
 - Repos/Services (GitHub/GitLab/Bitbucket, CI/CD, etc.):
 - Testing tools:
+
+## 5. Integration Pattern Applied
+
+**Pattern: Publish–Subscribe (Pub-Sub)**
+
+Rationale:
+The Pub-Sub pattern is the most suitable for OneVictoria because it ensures real-time, simultaneous communication among multiple stakeholders during disasters. A central message broker handles updates such as alerts, shelter status, volunteer tasks, and relief distribution. For example, when the LGU publishes a disaster alert, it is immediately broadcasted to all subscribed modules — Residents, Volunteers, and Barangays — without requiring direct one-to-one communication. Similarly, Shelter Management publishes occupancy reports that are automatically distributed to the Relief & Distribution Module and LGU. This reduces dependency between modules, supports scalability, and ensures timely and reliable information flow, which is crucial in emergency situations.
