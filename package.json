@@ -1,0 +1,27 @@
+{
+  "name": "ite412_sia2_systeam_onevictoriaproject-",
+  "version": "1.0.0",
+  "description": "**Course:** ITP41E – System Integration and Architecture 2\r **Team Name:** SysTEAM\r **Repository:** [[link to repository]](https://github.com/Jelahteen/ITE412_SIA2_SysTeam_OneVictoriaProject-.git)\r ## Team Members & Roles\r - K.C. L. Villanueva — Team Lead\r - Chyryle Joy R. Dairo — Documentation Lead\r - Jelah Joy L. Quintana — Integration Lead\r - K.C. L. Villanueva — Developer\r - Rocella C. Condiman — Tester\r ## Project Summary\r - OneVictoria aim to streamline disaster preparedness and response efforts within the municipality of Victoria. This web application will unify communication and coordination between barangay officials, municipal disaster management teams, volunteers, NGOs, and residents.\r ## Repository Structure",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jelahteen/ITE412_SIA2_SysTeam_OneVictoriaProject-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jelahteen/ITE412_SIA2_SysTeam_OneVictoriaProject-/issues"
+  },
+  "homepage": "https://github.com/Jelahteen/ITE412_SIA2_SysTeam_OneVictoriaProject-#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

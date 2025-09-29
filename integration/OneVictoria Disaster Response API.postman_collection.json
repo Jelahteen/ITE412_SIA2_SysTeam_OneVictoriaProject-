@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "b045f1b4-189b-4ef7-91c8-e265f770c47f",
+		"name": "OneVictoria Disaster Response API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47697638",
+		"_collection_link": "https://villanuevakc13-9570827.postman.co/workspace/K.C.-Villanueva's-Workspace~51833dc4-88e2-420a-8f60-2aed392076a5/collection/47697638-b045f1b4-189b-4ef7-91c8-e265f770c47f?action=share&source=collection_link&creator=47697638"
+	},
+	"item": [
+		{
+			"name": "add alert",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/lgu",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"lgu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add alert",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    {\r\n        \"type\": \"Bagyo\",\r\n        \"location\": \"Barcenga\",\r\n        \"severity\": \"High\",\r\n        \"status\": \"Active\"\r\n    }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/lgu",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"lgu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get volunteers",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "add volunteers",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"volunteerName\": \"Jelah\",\r\n        \"task\": \"Rescue Operation\",\r\n        \"status\": \"On-Going\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/volunteers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"volunteers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
